@@ -16,7 +16,7 @@
   "nightModeEnabled": false,
   "animationSpeed": 2,
   "customAnimationDuration": 500,
-  "wallpaperFillMode": "Pad",
+  "wallpaperFillMode": "Stretch",
   "blurredWallpaperLayer": false,
   "blurWallpaperOnOverview": false,
   "showLauncherButton": true,
