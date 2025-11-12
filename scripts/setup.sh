@@ -45,7 +45,7 @@ cp -rp ~/.dank-dots/Wallpapers/* ~/Wallpapers
 packages=(
     "vivaldi"
     "chromium"
-    "vscodium"
+    "vscodium-bin"
     "nano"
     "btop"
     "ufw"
