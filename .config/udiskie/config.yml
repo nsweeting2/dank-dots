@@ -1,0 +1,11 @@
+program_options:
+  # Use udisks2 (standard)
+  udisks_version: 2 
+  # Automatically show and hide the tray icon when actions are available
+  tray: auto
+  # Enable notifications for mounts, unmounts, etc.
+  notify: true
+  # Program to open the mounted folder
+  file_manager: ghostty -e yazi
+  # Cache LUKS passwords for 10 minutes (set to 'false' to disable caching)
+  password_cache: false

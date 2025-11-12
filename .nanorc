@@ -1,0 +1,51 @@
+#
+# ~/.nanorc
+#
+
+set linenumbers
+
+set quickexit
+
+set constantshow
+
+set smooth
+
+set smart
+
+set tabsize 4
+
+set tabtospaces
+
+set autoindent
+
+set softwrap
+
+set rebindstatus
+
+set indicator
+
+set suspend
+
+set operatingdir ""
+
+include "/usr/share/nano/sh.nanorc"         # Shell scripts
+
+include "/usr/share/nano/html.nanorc"       # HTML/XML
+
+include "/usr/share/nano/json.nanorc"       # JSON
+
+include "/usr/share/nano/css.nanorc"        # CSS
+
+include "/usr/share/nano/java.nanorc"       # Java
+
+include "/usr/share/nano/c.nanorc"          # C/C++
+
+include "/usr/share/nano/lua.nanorc"        # LUA
+
+include "/usr/share/nano/python.nanorc"     # Python
+
+include "/usr/share/nano/man.nanorc"        # Man pages
+
+include "/usr/share/nano/nanohelp.nanorc"   # Nano Help
+
+include "/usr/share/nano/markdown.nanorc"   # Markdown (often a separate install)
