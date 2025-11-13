@@ -28,7 +28,7 @@
 # Backup and symlink Hypr/hyprland.conf                       [ Done ]
 # Backup and symlink ghostty/config                           [ Done ]
 # Backup and symlink btop/btop.conf                           [ Done ]
-# Symlink btop.desktop for app launcher
+# Symlink btop.desktop for app launcher                       [ Done ]
 # Copy over btop/themes folder                                [ Done ]
 # Symlink fastfetch/config.jsonc (No default)                 []
 # Add fastfetch to app launcher                               []
@@ -138,7 +138,11 @@ dank_file="$HOME/.dank-dots/.config/btop/btop.conf"
 backup $default_file
 symlink $dank_file $default_file
 
-# Add btop to app launcher
+# Symlink btop.desktop for app launcher
+dank_file="$HOME/.dank-dots/applications/btop.desktop"
+destination_file="$HOME/.local/share/applications/btop.desktop"
+backup $default_file
+symlink $dank_file $destination_file
 
 # Copy over btop/themes folder from .dank-dots
 cp -rp ~/.dank-dots/.config/btop/themes/ ~/.config/btop/themes
